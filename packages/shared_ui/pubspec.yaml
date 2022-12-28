@@ -1,0 +1,36 @@
+name: shared_ui
+description: A new Flutter package project.
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pull_to_refresh: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - packages/shared_ui/assets/images/alert_icon.png
+    - packages/shared_ui/assets/images/check_icon.png
+    - packages/shared_ui/assets/images/eye_pass_close.png
+    - packages/shared_ui/assets/images/favorite_icon.png
+    - packages/shared_ui/assets/images/filter_icon.png
+    - packages/shared_ui/assets/images/home_icon.png
+    - packages/shared_ui/assets/images/image.png
+    - packages/shared_ui/assets/images/info_icon.png
+    - packages/shared_ui/assets/images/polygon_1.png
+    - packages/shared_ui/assets/images/polygon_2.png
+    - packages/shared_ui/assets/images/polygon_3.png
+    - packages/shared_ui/assets/images/polygon_4.png
+    - packages/shared_ui/assets/images/profile_icon.png
+    - packages/shared_ui/assets/images/splash_screen.png
+    - packages/shared_ui/assets/images/info_icon_outline.png
